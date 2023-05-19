@@ -7,7 +7,6 @@ from numpy import argmax
 from numpy import genfromtxt
 import pandas as pd
 import shap
-from IPython.display import display 
 import catboost as cb
 from catboost.datasets import titanic
 import plotly.graph_objs as go 
