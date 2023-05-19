@@ -105,10 +105,10 @@ def user_input_features():
     if st.button("Predict"):
         st.success('The probability of pneumonia for the patient: {:.1f}%'.format(prediction*100))
         if prediction>0.151:
-            b="High risk"
+            b="High"
         else:
-            b="Low risk"
-        st.success('The risk group:'+ b)
+            b="Low"
+        st.success('The risk group:'+ b+‘risk’)
         explainer_Cb = shap.TreeExplainer(Cb)
         shap_values= explainer_Cb(patient)
         shap.plots.waterfall(shap_values[0])
