@@ -39,7 +39,7 @@ Cb.fit(trainx, trainy)
 
 ###side-bar
 def user_input_features():
-    st.title("Prediction probability of pneumonia")
+    st.title("Prediction probability of pneumonia after hip surgery for elderly patients")
     st.sidebar.header('User input parameters below')
     a1=st.sidebar.number_input("Age",min_value=65,max_value=120)
     a2=st.sidebar.number_input("CRP(mg/L)",min_value=0.01,max_value=None,step=0.01)
