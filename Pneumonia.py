@@ -122,7 +122,8 @@ def user_input_features():
         
     
     st.markdown("*Statement: this website will not record or store any information inputed.")
-    st.write("The application is not approved for use in support of clinical decision making, but rather as a demonstration of the developed predictive model. 2023 Nanjing First Hospital, Nanjing Medical University. All Rights Reserved ")
+    st.write("The application is not approved for use in support of clinical decision making, but rather as a demonstration of the developed predictive model.")
+    st.write("2024 Nanjing First Hospital, Nanjing Medical University. All Rights Reserved ")
     st.write("✉ Contact Us: zoujianjun100@126.com")
 
 if __name__ == '__main__':
