@@ -119,7 +119,7 @@ def user_input_features():
         st.write("Note: The mFI-5 score based on five variables including functional status, diabetes mellitus, chronic obstructive pulmonary disease, heart failure, and hypertension")
     if st.button("Reset"):
         st.write("")
-    st.markdown("*Statement: this website will not record or store any information inputed."
+         st.markdown("*Statement: this website will not record or store any information inputed."
     st.write("The application is not approved for use in support of clinical decision making, but rather as a demonstration of the developed predictive model. 2023 Nanjing First Hospital, Nanjing Medical University. All Rights Reserved ")
     st.write("✉ Contact Us: zoujianjun100@126.com")
 
